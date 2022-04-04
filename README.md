@@ -1,4 +1,4 @@
-# ECCC: Khmer Speech Translation Corpus of the Extraordinary in the Courts of Cambodia
+# ECCC: Khmer Speech Translation Corpus of the Extraordinary Chambers in the Courts of Cambodia
 
 This repository is for sharing the dataset of Khmer speech translation corpus for the low-resource speech translation track at Workshop on Asian Translation (WAT) 2022
 
