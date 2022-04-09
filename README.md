@@ -7,11 +7,14 @@ This repository is for sharing the dataset of Khmer speech translation corpus fo
 It is a spoken language translation (SLT) corpus of Khmer to English and French, namely ECCC, which is an international court dataset consisting of text and speech in Khmer, English, and French. However, this provided dataset is only for Khmer SLT, which has the speech in Khmer and translation text into English and French. This dataset has a wide range of speakers: witnesses, defendants, judges, clerks or officers, co-prosecutors, experts, defense counsels, civil parties, and interpreters.
 
 ## Statistical data
- | Dataset | #utterance | #hour |
+
+We randomly selected 20% of the original ECCC of the Khmer SLT [Soky et al.,2021].
+
+ | Dataset | # utterances | Duration |
  | --- | --- | --- |
- | Training | xx | xx |
- | Dev | xx | xx |
- | Testing | xx | xx |
+ | Training | 11.563 | 29:07:31 |
+ | Dev | 624 | 1:39:53 |
+ | Testing | 626 | 1:38:27 |
 
 ## Citation
 
