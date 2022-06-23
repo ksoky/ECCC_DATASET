@@ -18,15 +18,38 @@ We randomly selected 20% of the original ECCC of the Khmer SLT [Soky et al.,2021
 
 ## Baseline Systems
 
-The gold of this task is to translate from the Khmer speech to English/French.
+The goal of this task is to translate from the Khmer speech to English/French.
 ### Baseline setting
 
-#### ASR
+#### - ASR
+| Encoder | 6 |
+| Decoder | 6 | 
+| FFN units | 1024 | 
+| Attention head | 4 |
+| Attention-dim | 256 |
+| Epochs | 60 |
+| Batch-size | 64 |
+| BPE | 3000 |
+#### - MT
+| Encoder | 6 |
+| Decoder | 6 | 
+| FFN units | 1024 | 
+| Attention head | 4 |
+| Attention-dim | 256 |
+| Epochs | 100 |
+| Batch-size | 96 |
+| BPE | 3000 per language |
+#### - ST
+| Encoder | 6 |
+| Decoder | 6 | 
+| FFN units | 1024 | 
+| Attention head | 4 |
+| Attention-dim | 256 |
+| Epochs | 60 |
+| Batch-size | 64 |
+| BPE | 3000 per language |
 
-#### MT
-
-#### ST
-
+* Note: The ASR encoder is also used to initialize the ST encoder, and MT decoder is initialized the ST decoder.
 ### Results
 
 | System | Task | Performance | Input | output |
