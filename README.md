@@ -20,8 +20,10 @@ We randomly selected 20% of the original ECCC of the Khmer SLT [Soky et al.,2021
 
 The goal of this task is to translate from the Khmer speech to English/French.
 ### Baseline setting
-
+The baseline was trained on ESPnet toolkit using Transformer-based architecutre with the following setting:
 #### - ASR
+| Module | size |
+| --- | --- |
 | Encoder | 6 |
 | Decoder | 6 | 
 | FFN units | 1024 | 
@@ -31,6 +33,8 @@ The goal of this task is to translate from the Khmer speech to English/French.
 | Batch-size | 64 |
 | BPE | 3000 |
 #### - MT
+| Module | size |
+| --- | --- |
 | Encoder | 6 |
 | Decoder | 6 | 
 | FFN units | 1024 | 
@@ -40,6 +44,8 @@ The goal of this task is to translate from the Khmer speech to English/French.
 | Batch-size | 96 |
 | BPE | 3000 per language |
 #### - ST
+| Module | size |
+| --- | --- |
 | Encoder | 6 |
 | Decoder | 6 | 
 | FFN units | 1024 | 
