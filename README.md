@@ -16,6 +16,27 @@ We randomly selected 20% of the original ECCC of the Khmer SLT [Soky et al.,2021
  | Dev | 624 | 1:39:53 |
  | Testing | 626 | 1:38:27 |
 
+## Baseline Systems
+
+The gold of this task is to translate from the Khmer speech to English/French.
+### Baseline setting
+
+#### ASR
+
+#### MT
+
+#### ST
+
+### Results
+
+| System | Task | Performance | Input | output |
+| --- | --- | --- | --- | --- |
+| ASR | Khmer | 21.5% (WER) | Khmer speech | Khmer text |
+| MT | Khmer-English | 11.3 (BLEU) | Khmer text | English text |
+| MT | Khmer-French | 8.7 (BLEU) | Khmer text | French text |
+| ST | Khmer-English | 5.1 (BLEU) | Khmer speech | English text |
+| ST | Khmer-French | 5.1 (BLEU) | Khmer speech | French text |
+
 ## Citation
 
 ```
